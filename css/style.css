@@ -40,6 +40,7 @@ body {
     url(../img/hero.jpg);
   background-size: cover;
   background-position: top center;
+  position: relative; /* this is a property that specifies the positioning scheme for an element. This is the origin, the reference. */
 
   clip-path: polygon(
     0 0,
@@ -50,4 +51,42 @@ body {
   clip-path is a CSS property that allows you to define a custom shape for an element. 
     - polygon functions needs a list of points (coordinates) that define the shape of the polygon. clockwise order.
   */
+}
+
+.logo-box {
+  position: absolute; /* absolute positioning allows you to position an element relative to its nearest positioned ancestor. */
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px; /* prefer to specify the height of an image (the elements) rather than the width. the width will set auto. */
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* translate is a CSS transform function that moves the center of an element itself along the x and y axes. */
+}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  display: block; /* I want for each span to take line for itself. each block has its own properties. */
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 36px;
+}
+
+.heading-primary-sub {
+  display: block; /* I want for each span to take line for itself. each block has its own properties. */
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 17.8px;
 }
