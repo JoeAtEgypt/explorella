@@ -66,3 +66,8 @@ Explorella is designed to be your playground for learning, experimenting, and ma
 ---
 
 Enjoy your journey through the world of advanced CSS with **Explorella**!
+
+## 📚 References
+
+- The main original website: [Natours](https://natours.netlify.app/)
+- The perfect course: [Advanced CSS and Sass on Udemy](https://www.udemy.com/course/advanced-css-and-sass/)
